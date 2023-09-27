@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: Black;
+}
+
+#center{
+    height: 60%;
+    width: 60%;
+    color:hotpink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 200px;
+    transform: translate(-50%, -50%);
+}
+
+.imagediv{
+    height: 140px;
+    width: 100px;
+    position: absolute;
+}
+
+.imagediv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(100%);
+    transition: all ease 0.2s;
+}
